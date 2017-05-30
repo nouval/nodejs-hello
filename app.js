@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/',function(req,res) {
-  res.send("<html><head/><body bgcolor='yellow'><h1>Hello World!</h1></body></html>");
+  res.send("<html><head/><body style='background-color:red'><h1>Hello World!</h1></body></html>");
 });
 
-app.listen(80);
+app.listen(8080);
